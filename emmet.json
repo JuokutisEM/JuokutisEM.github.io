@@ -1,0 +1,7 @@
+{
+    "html": {
+        "snippets": {
+            "!": "<!DOCTYPE html>\n<html lang='lt'>\n<head>\n<meta charset='UTF-8'>\n<meta name='Simon' content='Yes'>\n<meta name='description' content='Basic HTML document for lab assignment'>\n<title>Basic HTML Structure</title>\n<link rel='stylesheet' href='styles.css'>\n</head>\n<body>\n<!-- Created by: Simonas Rastenis, Ekfu-23 -->\n<h1>Simonas Rastenis Ekfu-23</h1>\n<p><b>Hello There</b></p>\n<p><i>General Kenobi</i></p>\n<p><u>A Legendary Battle Starts</u></p>\n</body>\n</html>"
+        }
+    }
+}

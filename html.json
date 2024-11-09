@@ -1,0 +1,25 @@
+{
+    "Custom HTML Boilerplate": {
+        "prefix": "htmlboiler",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"lt\">",
+            "<head>",
+            "    <meta charset=\"UTF-8\">",
+            "    <meta name=\"Simon\" content=\"Yes\">",
+            "    <meta name=\"description\" content=\"Basic HTML document for lab assignment\">",
+            "    <title>Basic HTML Structure</title>",
+            "    <link rel=\"stylesheet\" href=\"styles.css\">",
+            "</head>",
+            "<body>",
+            "    <!-- Created by: Simonas Rastenis and Ekfu-23 -->",
+            "    <h1>Simonas Rastenis Ekfu-23</h1>",
+            "    <p><b>Hello There</b></p>",
+            "    <p><i>General Kenobi</i></p>",
+            "    <p><u>A Legendary Battle Starts</u></p>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Custom HTML document structure"
+    }
+}
