@@ -9,72 +9,81 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- About Section -->
-    <section id="About" class="center">
-        <h2><b>About Me</b></h2>
-        <b>Heyo! I am Simonas Rastenis, a passionate engineer!</b>
-        <div>
-            <b>23 old student whose studying computer engineering!</b>
-        </div>   
-        <div>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-                <img src="images/Me.jpg" alt="Simonas Rastenis" width="350" height="350">
+    <!-- Top Black Bar -->
+    <div class="black-bar top-bar"></div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- About Section -->
+        <section id="About" class="center">
+            <h2><b>About Me</b></h2>
+            <b>Heyo! I am Simonas Rastenis, a passionate engineer!</b>
+            <div>
+                <b>23 old student whose studying computer engineering!</b>
+            </div>   
+            <div>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="images/Me.jpg" alt="Simonas Rastenis" width="350" height="350">
+                </a>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="Resume" class="center">
+            <h2>Resume</h2>
+            <p>I am a 2nd year student</p>
+            <p>My course is Computer engineering</p>
+            <p>My results are about average</p>
+            <a href="https://www.youtube.com/watch?v=QSOjj8Q_9b4" target="_blank">
+                <img src="images/power.webp" alt="Resume" width="350" height="350">
             </a>
-        </div>
-    </section>
+        </section>
 
-    <!-- Resume Section -->
-    <section id="Resume" class="center">
-        <h2>Resume</h2>
-        <p>I am a 2nd year student</p>
-        <p>My course is Computer engineering</p>
-        <p>My results are about average</p>
-        <a href="https://www.youtube.com/watch?v=QSOjj8Q_9b4" target="_blank">
-            <img src="images/power.webp" alt="Resume" width="350" height="350">
-        </a>
-    </section>
+        <!-- Portfolio Section -->
+        <section id="Portfolio" class="center">
+            <h2>Portfolio</h2>
+            <p>Some of my notable works...</p>
+            <p>Ah, of course!</p>
+            <p>Here's one of my drawings!</p>
+            <a href="https://www.instagram.com/srastenis/" target="_blank">
+                <img src="images/Janemba.png" alt="Portfolio" width="350" height="350">
+            </a>
+        </section>
 
-    <!-- Portfolio Section -->
-    <section id="Portfolio" class="center">
-        <h2>Portfolio</h2>
-        <p>Some of my notable works...</p>
-        <p>Ah, of course!</p>
-        <p>Here's one of my drawings!</p>
-        <a href="https://www.instagram.com/srastenis/" target="_blank">
-            <img src="images/Janemba.png" alt="Portfolio" width="350" height="350">
-        </a>
-    </section>
+        <!-- Services Section -->
+        <section id="services" class="center">
+            <h2>Videos and Audio</h2>
+            
+            <!-- Local Video -->
+            <h3>Yes</h3>
+            <video controls width="600">
+                <source src="video/March.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
 
-    <!-- Services Section -->
-    <section id="services" class="center">
-        <h2>Videos and Audio</h2>
-        
-        <!-- Local Video -->
-        <h3>Yes</h3>
-        <video controls width="600">
-            <source src="video/March.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+            <!-- Embedded YouTube Video -->
+            <h3>Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <!-- Embedded YouTube Video -->
-        <h3>Video</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Audio Recording -->
+            <h3>My favourite song</h3>
+            <audio controls>
+                <source src="audio/Song1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
 
-        <!-- Audio Recording -->
-        <h3>My favourite song</h3>
-        <audio controls>
-            <source src="audio/Song1.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-    </section>
+        <!-- NOW -->
+        <section id="NOW" class="center">
+            <h2>NOW</h2>
+            <a href="https://www.youtube.com/watch?v=GXo5ShfaPrQ&t=88s" target="_blank">
+                <img src="images/Vegito.png" alt="NOW" width="500" height="350">
+            </a>
+        </section>
+    </div>
 
-    <!-- NOW -->
-    <section id="NOW" class="center">
-        <h2>NOW</h2>
-        <a href="https://www.youtube.com/watch?v=GXo5ShfaPrQ&t=88s" target="_blank">
-            <img src="images/Vegito.png" alt="NOW" width="500" height="350">
-        </a>
-    </section>
+    <!-- Bottom Black Bar -->
+    <div class="black-bar bottom-bar"></div>
 
     <script src="js/scripts.js"></script>
 </body>
