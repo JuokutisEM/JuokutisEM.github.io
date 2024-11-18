@@ -1,11 +1,9 @@
-
 :root {
   --bg-color-light: lightblue;
   --text-color-light: black;
   --bg-color-dark: #1a1a1a;
   --text-color-dark: white;
 }
-
 body {
   background-color: var(--bg-color-light);
   color: var(--text-color-light);
@@ -126,4 +124,52 @@ body.dark-mode {
 .theme-toggle:hover {
   background-color: #555;
   color: #ffeb3b; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.fullpage {
+  opacity: 0;
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+.fullpage.visible {
+  animation: fadeIn 0.6s forwards;
+}
+
+.fullpage.hidden {
+  animation: fadeOut 0.6s forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.fullpage {
+  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: start; 
 }
