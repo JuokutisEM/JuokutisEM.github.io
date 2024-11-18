@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+    
   <!-- Header -->
   <header class="header">
     <div class="container">
@@ -28,7 +29,7 @@
   </header>
 
     <!-- About Section -->
-    <section id="about" class="center">
+    <section id="about" class="fullpage">
       <h2><b>About Me</b></h2>
       <b>Heyo! I am Simonas Rastenis, a passionate engineer!</b>
       <div>
@@ -38,11 +39,12 @@
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
           <img src="images/Me.jpg" alt="Simonas Rastenis" width="350" height="350">
         </a>
+        
       </div>
     </section>
 
     <!-- Resume Section -->
-    <section id="resume" class="center">
+    <section id="resume" class="fullpage hidden">
       <h2>Resume</h2>
       <p>I am a 2nd year student</p>
       <p>My course is Computer engineering</p>
@@ -50,12 +52,10 @@
       <a href="https://www.youtube.com/watch?v=QSOjj8Q_9b4" target="_blank">
         <img src="images/power.webp" alt="Resume" width="350" height="350">
       </a>
-      <!-- Light/Dark Mode Toggle Button -->
-      <button id="theme-toggle" class="theme-toggle">Toggle Light/Dark Mode</button>
     </section>
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="center">
+    <section id="portfolio" class="fullpage hidden">
       <h2>Portfolio</h2>
       <p>Some of my notable works...</p>
       <p>Ah, of course!</p>
@@ -66,7 +66,7 @@
     </section>
 
     <!-- Services Section -->
-    <section id="services" class="center">
+    <section id="services" class="fullpage hidden">
       <h2>Videos and Audio</h2>
       <!-- Local Video -->
       <h3>Yes</h3>
@@ -87,14 +87,14 @@
       </audio>
     </section>
 
-    <section id="now" class="center">
+    <section id="now" class="fullpage hidden">
       <h2>NOW</h2>
   <a href="https://www.youtube.com/watch?v=GXo5ShfaPrQ&t=88s" target="_blank">
       <img src="images/Vegito.png" alt="now" width="560" height="350">
     </a>
 </section>
   <!-- Contact Bar -->
-  <div id="contact-section" class="contact-bar">
+  <div id="contact-section" class="fullpage contact-bar hidden">
    </div>
   <!-- Footer -->
   <footer>
@@ -109,7 +109,12 @@
     </div>
   </footer>
 
+  <button id="theme-toggle" class="theme-toggle">Toggle Light/Dark Mode</button>
+
   <!-- JavaScript -->
   <script src="js/functions.js"></script>
+  <script src="js/smoothScroll.js"></script>
+  <script src="js/sectionTransitions.js"></script>
+  
 </body>
 </html>
