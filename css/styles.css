@@ -156,7 +156,6 @@ body.dark-mode {
 .fullpage.visible {
   animation: fadeIn 0.6s forwards;
 }
-
 .fullpage.hidden {
   animation: fadeOut 0.6s forwards;
 }
@@ -172,4 +171,24 @@ html {
   align-items: center;
   text-align: center;
   scroll-snap-align: start; 
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1000; 
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top.show {
+  display: block;
+  opacity: 1;
 }
