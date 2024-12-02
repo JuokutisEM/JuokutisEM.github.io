@@ -192,3 +192,8 @@ html {
   display: block;
   opacity: 1;
 }
+.clock {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
