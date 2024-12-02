@@ -1,168 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal website">
-  <meta name="author" content="Simonas Rastenis, Ekfu-23">
-  <title>Simonas Rastenis - Personal Website</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simonas Rastenis - Personal Website</title>
+    <meta name="description" content="Personal website">
+    <meta name="author" content="Simonas Rastenis, Ekfu-23">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- MathJax Script for Rendering MathML -->
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-    
-  <header class="header">
-    <div class="container">
-      <div class="logo">
-        <img src="images/Yes.png" alt="Logo">
-      </div>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="#about">About</a>
-        <a href="#resume">Resume</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact-section">Contact</a>
-      </nav>
-    </div>
-  </header>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="Logo"/>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact-section">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <section id="about" class="fullpage">
-      <h2><b>About Me</b></h2>
-      <b>Heyo! I am Simonas Rastenis, a passionate engineer!</b>
-      <div>
-        <b>23 old student whose studying computer engineering!</b>
-      </div>
-      <div>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
-          <img src="images/Me.jpg" alt="Simonas Rastenis" width="500" height="500">
-        </a>
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- About Section -->
+        <section id="about" class="fullpage hidden">
+            <h2><b>About Me</b></h2>
+            <b>Heyo! I am Simonas Rastenis, a passionate engineer!</b>
+            <div>
+                <b>23-year-old student studying computer engineering!</b>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="images/Me.jpg" alt="Simonas Rastenis" width="350" height="350"/>
+                </a>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="fullpage hidden">
+            <h2>Resume</h2>
+            <p>I am a 2nd year student</p>
+            <p>My course is Computer engineering</p>
+            <p>My results are about average</p>
+            <a href="https://www.youtube.com/watch?v=QSOjj8Q_9b4" target="_blank">
+                <img src="images/power.webp" alt="Resume" width="350" height="350"/>
+            </a>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="fullpage hidden">
+            <h2>Portfolio</h2>
+            <p>Some of my notable works...</p>
+            <p>Ah, of course!</p>
+            <p>Here's one of my drawings!</p>
+            <a href="https://www.instagram.com/srastenis/" target="_blank">
+                <img src="images/Janemba.png" alt="Portfolio" width="350" height="350"/>
+            </a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="fullpage hidden">
+            <h2>Videos and Audio</h2>
+            <!-- Local Video -->
+            <h3>Yes</h3>
+            <video controls width="600">
+                <source src="video/March.mp4" type="video/mp4"/>
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Embedded YouTube Video -->
+            <h3>Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <!-- Audio Recording -->
+            <h3>My favourite song</h3>
+            <audio controls>
+                <source src="audio/Song1.mp3" type="audio/mpeg"/>
+                Your browser does not support the audio element.
+            </audio>
+        </section>
+
+        <!-- NOW Section -->
         
-      </div>
-    </section>
-
-    <section id="resume" class="fullpage hidden">
-      <h2>Resume</h2>
-      <p>I am a 2nd year student</p>
-      <p>My course is Computer engineering</p>
-      <p>My results are about average</p>
-      <a href="https://www.youtube.com/watch?v=QSOjj8Q_9b4" target="_blank">
-        <img src="images/power.webp" alt="Resume" width="500" height="500">
-      </a>
-    </section>
-
-    <section id="portfolio" class="fullpage hidden">
-      <h2>Portfolio</h2>
-      <p>Some of my notable works...</p>
-      <p>Ah, of course!</p>
-      <p>Here's one of my drawings!</p>
-      <a href="https://www.instagram.com/srastenis/" target="_blank">
-        <img src="images/Janemba.png" alt="Portfolio" width="500" height="500">
-      </a>
-    </section>
-
-    <section id="services" class="fullpage hidden">
-      <h2>Videos and Audio</h2>
-      <h3>You all came here for this</h3>
-      <video controls width="600">
-        <source src="video/March.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <h3>Hello There</h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <h3>My favourite song</h3>
-      <audio controls>
-        <source src="audio/Song1.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </section>
-
-    <section id="now" class="fullpage hidden">
-      <h2>NOW</h2>
-  <a href="https://www.youtube.com/watch?v=GXo5ShfaPrQ&t=88s" target="_blank">
-      <img src="images/Vegito.png" alt="now" width="560" height="350">
-    </a>
-</section>
-
+        <section id="now" class="fullpage hidden">
+           <div>
+          <h2>NOW</h2>
+            <a href="https://www.youtube.com/watch?v=GXo5ShfaPrQ&t=88s" target="_blank">
+              <img src="images/Vegito.png" alt="now" width="560" height="350">
+            </a>
+         </div>
+            </section>
        
+        <!-- Mathematical Expressions Section -->
         <section id="math-expressions" class="fullpage hidden">
-          <h2>Mathematical Expressions and SVG Example</h2>
-          <p>The following is an example of a mathematical expression written in MathML. MathJax ensures that it is rendered correctly in all browsers.</p>
-          
-          
-          <p>The formula for \(f(a)\) using the residue theorem is:</p>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-              <mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo>
-              <mfrac>
-                  <mn>1</mn>
-                  <mrow>
-                      <mn>2</mn><mi>&#x3C0;</mi><mi>i</mi>
-                  </mrow>
-              </mfrac>
-              <msubsup>
-                  <mo>∮</mo>
-                  <mi>D</mi>
-                  <mn></mn>
-              </msubsup>
-              <mfrac>
-                  <mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo>
-                  <mo>(</mo><mi>z</mi><mo>−</mo><mi>a</mi><mo>)</mo>
-              </mfrac>
-              <mo>d</mo><mi>z</mi>
-          </math>
+            <h2>Mathematical Expressions and SVG Example</h2>
+            <p>The following is an example of a mathematical expression written in MathML. MathJax ensures that it is rendered correctly in all browsers.</p>
+            
+            <!-- MathML Example: Residue Theorem -->
+            <p>The formula for \(f(a)\) using the residue theorem is:</p>
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                <!-- Residue Theorem -->
+                <mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                        <mn>2</mn><mi>&#x3C0;</mi><mi>i</mi>
+                    </mrow>
+                </mfrac>
+                <msubsup>
+                    <mo>∮</mo>
+                    <mi>D</mi>
+                    <mn></mn>
+                </msubsup>
+                <mfrac>
+                    <mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo>
+                    <mo>(</mo><mi>z</mi><mo>−</mo><mi>a</mi><mo>)</mo>
+                </mfrac>
+                <mo>d</mo><mi>z</mi>
+            </math>
 
-          <p>The following is another example of a standard deviation formula:</p>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-              <mi>&#x3C3;</mi><mo>=</mo>
-              <msqrt>
-                  <mfrac>
-                      <mn>1</mn>
-                      <mi>N</mi>
-                  </mfrac>
-                  <mrow>
-                      <munderover>
-                          <mo>&#x2211;</mo>
-                          <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
-                          <mi>N</mi>
-                      </munderover>
-                      <mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>&#x3BC;</mi><msup><mo>)</mo><mn>2</mn></msup>
-                  </mrow>
-              </msqrt>
-          </math>
+            <p>The following is another example of a standard deviation formula:</p>
+            <!-- MathML Example: Standard Deviation -->
+            <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                <mi>&#x3C3;</mi><mo>=</mo>
+                <msqrt>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mi>N</mi>
+                    </mfrac>
+                    <mrow>
+                        <munderover>
+                            <mo>&#x2211;</mo>
+                            <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+                            <mi>N</mi>
+                        </munderover>
+                        <mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>&#x3BC;</mi><msup><mo>)</mo><mn>2</mn></msup>
+                    </mrow>
+                </msqrt>
+            </math>
 
-          <h3>SVG Illustration</h3>
-          <p>Below is an SVG graphic illustrating a simple geometric shape:</p>
-          <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Example SVG">
-              <circle cx="100" cy="100" r="80" stroke="blue" stroke-width="4" fill="lightblue" />
-              <line x1="50" y1="50" x2="150" y2="150" stroke="red" stroke-width="2" />
-              <text x="50" y="190" font-size="16" fill="black">Example SVG</text>
-          </svg>
-      </section>
-  </div>
-
-<div id="contact-section" class="contact-bar hidden"></div>
-
-  <footer>
-    <div class="container">
-      <div class="social-icons">
-        <a href="https://x.com/SJuokutis" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.facebook.com/simonas.rastenis" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/srastenis/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-      <p>Contact: simonasrastenis@gmail.com | Created by: Simonas Rastenis, Ekfu-23</p>
+            <!-- SVG Example -->
+            <h3>SVG Illustration</h3>
+            <p>Below is an SVG graphic illustrating a simple geometric shape:</p>
+            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Example SVG">
+                <circle cx="100" cy="100" r="80" stroke="blue" stroke-width="4" fill="lightblue"/>
+                <line x1="50" y1="50" x2="150" y2="150" stroke="red" stroke-width="2"/>
+            </svg>
+        </section>
     </div>
-  </footer>
-
-  <button id="theme-toggle" class="theme-toggle">Toggle Light/Dark Mode</button>
-  <button id="scroll-to-top" class="scroll-to-top"> Top</button>
-
-  <script src="js/functions.js"></script>
-  <script src="js/smoothScroll.js"></script>
-  <script src="js/sectionTransitions.js"></script>
-  <script src="js/scrollToTop.js"></script>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="social-icons">
+          <a href="https://x.com/SJuokutis" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.facebook.com/simonas.rastenis" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/srastenis/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Contact: simonasrastenis@gmail.com | Created by: Simonas Rastenis, Ekfu-23</p>
+      </div>
+    </footer>
   
-</body>
-</html>
+    <button id="theme-toggle" class="theme-toggle">Toggle Light/Dark Mode</button>
+    <button id="scroll-to-top" class="scroll-to-top"> Top</button>
+  
+    <script src="js/functions.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/sectionTransitions.js"></script>
+    <script src="js/scrollToTop.js"></script>
+    
+  </body>
+  </html>
