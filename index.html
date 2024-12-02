@@ -89,60 +89,61 @@
        
         <!-- Mathematical Expressions Section -->
         <section id="math-expressions" class="fullpage hidden">
-            <h2>Mathematical Expressions and SVG Example</h2>
-            <p>The following is an example of a mathematical expression written in MathML. MathJax ensures that it is rendered correctly in all browsers.</p>
-            
-            <!-- MathML Example: Residue Theorem -->
-            <p>The formula for \(f(a)\) using the residue theorem is:</p>
-            <div>
-                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-                    <mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo>
-                    <mfrac>
-                        <mn>1</mn>
-                        <mrow><mn>2</mn><mi>π</mi><mi>i</mi></mrow>
-                    </mfrac>
-                    <msubsup>
-                        <mo>∮</mo>
-                        <mi>D</mi>
-                    </msubsup>
-                    <mfrac>
-                        <mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo>
-                        <mo>(</mo><mi>z</mi><mo>−</mo><mi>a</mi><mo>)</mo>
-                    </mfrac>
-                    <mo>d</mo><mi>z</mi>
-                </math>
-            </div>
+          <h2>Mathematical Expressions and SVG Example</h2>
+          <p>The following is an example of a mathematical expression written in MathML. MathJax ensures that it is rendered correctly in all browsers.</p>
+          
+          <!-- MathML Example: Residue Theorem -->
+          <p>The formula for \(f(a)\) using the residue theorem is:</p>
+          <div>
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo>
+                  <mfrac>
+                      <mn>1</mn>
+                      <mrow><mn>2</mn><mi>π</mi><mi>i</mi></mrow>
+                  </mfrac>
+                  <msubsup>
+                      <mo>∮</mo>
+                      <mi>D</mi>
+                      <mo></mo>
+                  </msubsup>
+                  <mfrac>
+                      <mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo>
+                      <mo>(</mo><mi>z</mi><mo>−</mo><mi>a</mi><mo>)</mo>
+                  </mfrac>
+                  <mo>d</mo><mi>z</mi>
+              </math>
+          </div>
 
-            <p>Below is a standard deviation formula:</p>
-            <div>
-                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
-                    <mi>σ</mi><mo>=</mo>
-                    <msqrt>
-                        <mfrac>
-                            <mn>1</mn>
-                            <mi>N</mi>
-                        </mfrac>
-                        <mrow>
-                            <munderover>
-                                <mo>∑</mo>
-                                <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
-                                <mi>N</mi>
-                            </munderover>
-                            <mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>μ</mi><msup><mo>)</mo><mn>2</mn></msup>
-                        </mrow>
-                    </msqrt>
-                </math>
-            </div>
+          <p>Below is a standard deviation formula:</p>
+          <div>
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+                  <mi>σ</mi><mo>=</mo>
+                  <msqrt>
+                      <mfrac>
+                          <mn>1</mn>
+                          <mi>N</mi>
+                      </mfrac>
+                      <mrow>
+                          <munderover>
+                              <mo>∑</mo>
+                              <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+                              <mi>N</mi>
+                          </munderover>
+                          <mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>μ</mi><msup><mo>)</mo><mn>2</mn></msup>
+                      </mrow>
+                  </msqrt>
+              </math>
+          </div>
 
-            <!-- SVG Example -->
-            <h3>SVG Illustration</h3>
-            <p>Below is an SVG graphic illustrating a simple geometric shape:</p>
-            <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Example SVG">
-                <circle cx="100" cy="100" r="80" stroke="blue" stroke-width="4" fill="lightblue">
-                <line x1="50" y1="50" x2="150" y2="150" stroke="red" stroke-width="2">
-            </svg>
-        </section>
-    </div>
+          <!-- SVG Example -->
+          <h3>SVG Illustration</h3>
+          <p>Below is an SVG graphic illustrating a simple geometric shape:</p>
+          <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Example SVG">
+              <circle cx="100" cy="100" r="80" stroke="blue" stroke-width="4" fill="lightblue" />
+              <line x1="50" y1="50" x2="150" y2="150" stroke="red" stroke-width="2" />
+              <text x="50" y="190" font-size="16" fill="black">Example SVG</text>
+          </svg>
+      </section>
 
     <!-- Footer -->
     <footer class="footer">
