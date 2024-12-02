@@ -10,11 +10,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+
     <header class="header">
         <div class="container">
             <div class="logo">
                 <img src="images/Yes.png" alt="Logo">
-            </div>
+
+            </div> 
+            <b>Current Time</b>
+            <div class="clock" id="clock">Loading...</div>
+            <script src="js/clock.js"></script>
+
             <nav class="nav-links">
                 <a href="index.html">Home</a>
                 <a href="#about">About</a>
@@ -25,10 +31,8 @@
             </nav>
         </div>
     </header>
-
-    <!-- Main Content -->
     <div class="main-content">
-        <!-- About Section -->
+        
         <section id="about" class="fullpage hidden">
             <h2>About Me</h2>
             <p>Heyo! I am Simonas Rastenis, a passionate engineer!</p>
@@ -38,7 +42,7 @@
             </a>
         </section>
 
-        <!-- Resume Section -->
+        
         <section id="resume" class="fullpage hidden">
             <h2>Resume</h2>
             <p>I am a 2nd-year student studying Computer Engineering with average results.</p>
@@ -47,7 +51,7 @@
             </a>
         </section>
 
-        <!-- Portfolio Section -->
+        
         <section id="portfolio" class="fullpage hidden">
             <h2>Portfolio</h2>
             <p>Some of my notable works, including one of my drawings:</p>
@@ -56,21 +60,21 @@
             </a>
         </section>
 
-        <!-- Services Section -->
+        
         <section id="services" class="fullpage hidden">
             <h2>Videos and Audio</h2>
-            <!-- Local Video -->
+           
             <h3>Local Video</h3>
             <video controls width="600">
                 <source src="video/March.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
-            <!-- Embedded YouTube Video -->
+            
             <h3>Embedded YouTube Video</h3>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0"></iframe>
             
-            <!-- Audio Recording -->
+           
             <h3>Audio Recording</h3>
             <audio controls>
                 <source src="audio/Song1.mp3" type="audio/mpeg">
@@ -78,7 +82,7 @@
             </audio>
         </section>
 
-        <!-- NOW Section -->
+       
         <section id="now" class="fullpage hidden">
             <h2>NOW</h2>
             <a href="https://www.youtube.com/watch?v=GXo5ShfaPrQ&t=88s" target="_blank">
@@ -86,12 +90,12 @@
             </a>
         </section>
        
-        <!-- Mathematical Expressions Section -->
+        
         <section id="math-expressions" class="fullpage hidden">
           <h2>Mathematical Expressions and SVG Example</h2>
           <p>The following is an example of a mathematical expression written in MathML. MathJax ensures that it is rendered correctly in all browsers.</p>
           
-          <!-- MathML Example: Residue Theorem -->
+         
           <p>The formula for \(f(a)\) using the residue theorem is:</p>
           <div>
               <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
@@ -136,17 +140,16 @@
               </math>
           </div>
 
-          <!-- SVG Example -->
           <h3>SVG Illustration</h3>
           <p>Below is an SVG graphic illustrating a simple geometric shape:</p>
           <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Example SVG">
               <circle cx="100" cy="100" r="80" stroke="blue" stroke-width="4" fill="lightblue" />
               <line x1="50" y1="50" x2="150" y2="150" stroke="red" stroke-width="2" />
+              <text x="50" y="190" font-size="16" fill="black">Example SVG</text>
           </svg>
       </section>
-    </div> <!-- Closing the unclosed main-content div -->
+    </div> 
 
-    <!-- Footer -->
     <footer class="footer">
       <div class="container">
           <div class="social-icons">
@@ -166,5 +169,11 @@
   <script src="js/smoothScroll.js"></script>
   <script src="js/sectionTransitions.js"></script>
   <script src="js/scrollToTop.js"></script>
+  <script src="clock.js"></script>
 </body>
 </html>
+
+
+
+
+    
