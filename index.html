@@ -68,9 +68,8 @@
 
             <!-- Embedded YouTube Video -->
             <h3>Embedded YouTube Video</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0">
-             
-          </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nu2jqFlHeTE?si=kKauDmMm_o_kJPR0"></iframe>
+            
             <!-- Audio Recording -->
             <h3>Audio Recording</h3>
             <audio controls>
@@ -98,7 +97,7 @@
               <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                   <mi>f</mi><mo>(</mo><mi>a</mi><mo>)</mo><mo>=</mo>
                   <mfrac>
-                      <mn>1</mn>
+                      <mrow><mn>1</mn></mrow>
                       <mrow><mn>2</mn><mi>π</mi><mi>i</mi></mrow>
                   </mfrac>
                   <msubsup>
@@ -107,8 +106,8 @@
                       <mo></mo>
                   </msubsup>
                   <mfrac>
-                      <mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo>
-                      <mo>(</mo><mi>z</mi><mo>−</mo><mi>a</mi><mo>)</mo>
+                      <mrow><mi>f</mi><mo>(</mo><mi>z</mi><mo>)</mo></mrow>
+                      <mrow><mo>(</mo><mi>z</mi><mo>−</mo><mi>a</mi><mo>)</mo></mrow>
                   </mfrac>
                   <mo>d</mo><mi>z</mi>
               </math>
@@ -119,17 +118,19 @@
               <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                   <mi>σ</mi><mo>=</mo>
                   <msqrt>
-                      <mfrac>
-                          <mn>1</mn>
-                          <mi>N</mi>
-                      </mfrac>
                       <mrow>
-                          <munderover>
-                              <mo>∑</mo>
-                              <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
-                              <mi>N</mi>
-                          </munderover>
-                          <mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>μ</mi><msup><mo>)</mo><mn>2</mn></msup>
+                          <mfrac>
+                              <mrow><mn>1</mn></mrow>
+                              <mrow><mi>N</mi></mrow>
+                          </mfrac>
+                          <mrow>
+                              <munderover>
+                                  <mo>∑</mo>
+                                  <mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow>
+                                  <mi>N</mi>
+                              </munderover>
+                              <mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mo>−</mo><mi>μ</mi><msup><mo>)</mo><mn>2</mn></msup>
+                          </mrow>
                       </mrow>
                   </msqrt>
               </math>
